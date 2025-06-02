@@ -4,26 +4,103 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Doubt Session Announcement</title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      background: #f0f4f8;
+      font-family: 'Montserrat', sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 {
+      color: #0077cc;
+      margin-bottom: 10px;
+      font-weight: 600;
+      font-size: 2.2rem;
+    }
+    h2 {
+      color: #005999;
+      margin: 30px 0 15px 0;
+      font-weight: 600;
+      font-size: 1.4rem;
+    }
+    p, ul {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin: 10px 0;
+      color: #555;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 20px 0;
+      text-align: left;
+      display: inline-block;
+    }
+    ul li::before {
+      content: "✔️ ";
+      color: #0077cc;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 28px;
+      font-size: 1.1rem;
+      color: white;
+      background-color: #0077cc;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 0 4px 10px rgba(0,119,204,0.3);
+      transition: background-color 0.3s ease;
+    }
+    a.button:hover {
+      background-color: #005999;
+    }
+    .footer {
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
     <h1>🎯 Missed last Doubt Session?</h1>
     <p>🔔 Join the Next One – Limited Free Spots!</p>
+
     <h2>📅 Next Session</h2>
-    <p>Date: Sunday, June 8th<br />Confirm your interest by: Friday, June 6th, 12 PM</p>
+    <p>Date: <strong>Sunday, June 8th</strong><br />Confirm your interest by: <strong>Friday, June 6th, 12 PM</strong></p>
+
     <p>👥 Maximum 5 students per session for personalized attention</p>
-    <p>Tip: Form your own batch (4–5 students) for a focused and supportive study group</p>
+    <p><em>Tip: Form your own batch (4–5 students) for a focused and supportive study group</em></p>
+
     <h2>📝 Fill the Google Form</h2>
-    <p>Deadline: June 6th, 12 PM<br />Helps us prepare a focused, productive discussion</p>
+    <p>Please fill out your topic-specific doubts in the form below before <strong>June 6th, 12 PM</strong>. This helps us prepare a focused, productive discussion.</p>
+    
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhUbnfRXbeNWjW61_0LHdxhaZnXKCRhZLgsYmMHtDX7YqPog/viewform" target="_blank" class="button">Fill the Doubt Session Form</a>
+
     <h2>💬 Who Is This For?</h2>
     <ul>
-      <li>✔️ Students starting from basics</li>
-      <li>✔️ Repeaters looking for targeted practice</li>
-      <li>✔️ Those who prefer one-on-one discussions</li>
+      <li>Students starting from basics</li>
+      <li>Repeaters looking for targeted practice</li>
+      <li>Those who prefer one-on-one discussions</li>
     </ul>
+
     <p>👉 Session format can be adapted to your needs!</p>
-    <p>🎁 Limited seats for free initial sessions.<br />📣 Don’t miss this opportunity!<br />Let’s strengthen your preparation together.</p>
+    <p>🎁 Limited seats for free initial sessions.<br />📣 Don’t miss this opportunity!<br /><strong>Let’s strengthen your preparation together.</strong></p>
+
+    <div class="footer">© 2025 Doubt Sessions by Praveen Maths</div>
   </div>
 </body>
 </html>
